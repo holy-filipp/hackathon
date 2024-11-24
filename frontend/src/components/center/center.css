@@ -1,0 +1,65 @@
+.h1{
+    height: 40px;
+    font-size: 18pt;
+    color: #001B5E;
+}
+
+.pdl5{
+    padding-left: 5%;
+}
+
+.pdt5{
+    padding-top: 5%;
+}
+
+.w70{
+    width: 80%;
+}
+
+.banner{
+    width: 90%;
+    height: auto;
+    height: 115px;
+    background-image: url(./img/banner.svg);
+    background-size: 100%;    
+    background-repeat: no-repeat;
+}
+
+.mt5{
+    grid-template-rows: 0fr 0.6fr 0.6fr 0.6fr 2fr;
+    margin-top: 5%;
+}
+
+.search{
+    width: 114%;
+    border-radius: 20px;
+    background-color: rgba(215, 215, 215, 0.5);
+}
+
+.month{
+    width: auto;
+    padding-top: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.flex_arrow{
+    display: flex;
+    margin-left: 0%;
+
+}
+
+.grid_wss{
+    grid-template-columns:auto 323px auto;
+    margin-left: 5%;
+}
+
+.arrow{
+    padding: 0;
+    color: #000000;
+    background: none;
+}
+
+.svg{
+    transform: rotate(180deg);
+}

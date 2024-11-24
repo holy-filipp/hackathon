@@ -1,0 +1,118 @@
+.month{
+    width: auto;
+    padding-top: 3px;
+}
+
+.grid_arrow{
+    grid-template-columns: 30px auto 30px;
+
+}
+
+.grid_wss{
+    grid-template-columns:auto auto;
+    margin-left: 5%;
+}
+
+.arrow{
+    padding: 0;
+    color: #000000;
+    background: none;
+}
+
+.rt-BaseTabList{
+    box-shadow: none;
+    width: auto;
+}
+
+.item{
+    width: 93px ;
+    height: 93px ;
+    border-radius: 10px;
+    background-color: rgba(215, 215, 215, 1) ;
+    display: grid;
+
+}
+
+.item_top{
+    justify-content: space-around;
+}
+
+.st_item_bottom{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: rgba(255, 72, 0, 0.5);
+}
+
+.item_bottom{
+    margin-top: 12%;
+}
+
+.ml5{
+    margin-left: 5%
+}
+
+.weekly{
+    background-color: rgba(215, 215, 215, 0.5);
+    width: 80%;
+    border-radius: 8px;
+    padding-left: 10%;
+    padding-top: 10%;
+    grid-template-rows: 80px 1fr
+}
+
+.info{
+    font-family: GTEestiProText-Regular;
+
+}
+
+.point{
+    width: 70%;
+    height: auto;
+    background-color: aqua;
+    padding-left: 10px ;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.guru{
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto auto;
+}
+
+.rt-r-gtc-7 {
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: 0.3fr;
+    gap: 10px;
+}
+
+.rt-r-gtc-2 {
+    grid-template-columns: 3fr 2fr;
+}
+
+.flex{
+    display: flex;
+    width: 66px;
+    justify-content: space-between;
+}
+
+.name{
+    background-color: rgba(255, 72, 0, 0.5);
+    border-radius: 5px;
+    padding-left: 6px;
+}
+
+.dialog_item{
+    background-color: rgba(0, 73, 255, 0.5);
+    border-radius: 8px;
+    height: 100px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #fff;
+
+    p{
+        margin-bottom: 5px;
+    }
+}

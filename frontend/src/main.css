@@ -1,0 +1,38 @@
+.grid{
+    grid-template-columns: auto 5fr;
+}
+
+.head{
+    background-color: #D7D7D7;
+}
+
+@font-face {
+    font-family: GTEestiProText-Bold;
+    src: url(/public/fonts/GTEestiProText-Bold.ttf);
+}
+  
+  @font-face {
+    font-family: GTEestiProText-Regular;
+    src: url(/public/fonts/GTEestiProText-Regular.ttf);
+}
+
+.h1 {
+    font-family: GTEestiProText-Bold;
+}
+
+.br,  .rt-CheckboxGroupItemInner,  .rt-TextFieldInput, .month, .flex p, .point {
+    font-family: GTEestiProText-Regular;
+}
+
+@media (max-width: 1025px) {
+    .rt-r-gtc-7 {
+        grid-template-columns: repeat(4, 100px);
+    }
+}
+
+@media (max-width: 769px) {
+    .rt-r-gtc-7 {
+        grid-template-columns: repeat(3, 100px);
+    }
+}
+

@@ -1,0 +1,69 @@
+@font-face {
+    font-family: GTEestiProText-Bold;
+    src: url(../public/fonts/GTEestiProText-Bold.ttf);
+}
+
+@font-face {
+    font-family: GTEestiProText-Regular;
+    src: url(../public/fonts/GTEestiProText-Regular.ttf);
+}
+
+
+
+*{
+    margin: 0;
+}
+
+.header{
+    padding-left: 18px;
+    background-color: #D7D7D7;
+    height: 1000px;
+}
+
+.Box{
+    height: auto;
+    margin-top:67px ;
+    margin-bottom: 56px
+}
+
+.sbut{
+    display: none;
+    background: none;
+    color: #000;
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    color: none;
+    background-color: none;
+}
+
+.br{
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.5 );
+    color: #1E1E1E;
+    width: 90%;
+}
+
+.rt-BaseButton {
+    justify-content: left;
+    text-align: left;
+}
+.logo{
+    font-size: 16pt;
+    color: #001B5E;
+    font-family: GTEestiProText-Bold;
+}
+
+.rt-BaseCheckboxRoot:where(.rt-variant-surface):where([data-state='unchecked'])::before {
+    background-color: rgb(255 255 255 / 0%);
+    box-shadow: none;
+}
+
+.rt-BaseCheckboxRoot:where(.rt-variant-surface):where([data-state='checked'], [data-state='indeterminate'])::before {
+    background-color: rgb(255 255 255 / 0%);
+}
+
+.rt-BaseCheckboxRoot:where(.rt-variant-surface):where([data-state='checked'], [data-state='indeterminate']) :where(.rt-BaseCheckboxIndicator) {
+    color: #000;
+}
+

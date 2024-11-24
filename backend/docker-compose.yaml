@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres
+    restart: unless-stopped  
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: qwerty
+      PGDATA: /var/lib/postgresql/data
+    volumes:
+      - calendar-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+volumes:
+  calendar-data:

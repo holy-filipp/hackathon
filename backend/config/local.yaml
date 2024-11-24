@@ -1,0 +1,16 @@
+env: "local"
+pdf_storage: "./storage"
+parser:
+  vertical_threshold: 5.0
+  horizontal_threshold: 15.0
+postgresql:
+  host: "home.filipp.su"
+  port: 5432
+  username: "test"
+  password: "qwerty"
+  database: "calendar"
+  ssl_mode: "disable"
+http_server:
+  address: "localhost:3000"
+  timeout: 99s
+  idle_timeout: 60s
